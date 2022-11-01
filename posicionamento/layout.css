@@ -1,0 +1,29 @@
+.menu{
+	font-family: courier,monospace;
+	background-color: #8fb5e9;
+	color: red;
+	border: 1px groove;
+	width: 1293px;
+}
+
+.menu a{
+	color: #005f6b;
+}
+
+.cabeça img{
+	width: 1295px;
+	margin-bottom: 10px;
+
+}
+
+.conteudo{
+	width: 700px;
+	text-align: justify;
+}
+
+.conteudo2{
+	width: 400px;
+	float: right;
+
+}
+
