@@ -1,0 +1,32 @@
+.conteudo{
+	font-family: "opensans-regular", arial, sans-serif;
+	background-color: white;
+	border: ;
+	padding: 5px;
+	margin: 5px;
+	margin-right: 900px;
+	margin-left: px;
+	align-content: center;
+	float: top;
+	text-align: center;
+	max-width: 800px;
+	min-width: 320px;
+	display: table-cell;
+	width: 900px;
+
+}
+body{
+	background-color: grey;
+}
+
+h1{
+	color: white;
+	margin-left: 20px;
+
+}
+
+.texto{
+	text-align: justify;
+	width: 900px;
+
+}

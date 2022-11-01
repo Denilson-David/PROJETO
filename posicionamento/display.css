@@ -1,0 +1,32 @@
+.in{
+	display: inline;
+	border: 1px solid black;
+}
+
+.bloco{
+	display: block;
+	border: 1px solid black;
+	width: 100px;
+
+}
+
+.inbloco{
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.lista{
+	display: list-item	;
+	border: px solid black;
+
+}
+
+.tabela{
+	display: inline-table;
+
+}
+
+.texto{
+	font-family: calibri, calibri-corpo, serif;
+	font-style: italic;
+}
