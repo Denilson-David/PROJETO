@@ -1,0 +1,18 @@
+.pessoa{
+	color: red;
+}
+.pessoa[data-idade='30']{
+	color: blue;
+}
+.pessoa[data-cpf='012345678902']{
+	color: blue;
+}
+.pessoa::before{
+	content: attr(data-nome) " ";
+}
+.pessoa::after{
+	content: attr(data-idade) " ";
+}
+.pessoa::after{
+	content: attr(data-cpf) " ";
+}

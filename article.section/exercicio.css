@@ -1,0 +1,66 @@
+a{
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 100px;
+	background-color: #f7a21b;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.artigo{
+	display: flex;
+	border: 1px solid black;
+	text-align: justify;
+}
+
+.artigo p, h2, span{
+	padding: 5px;
+}
+
+
+#content{
+	width: 80%;
+	height: 500px;
+	float: left;
+}
+
+.lateral{
+	border: 1px solid black;
+}
+
+.lateral h3{
+	text-align: center;
+}
+
+#sidebar{
+	width: 19.6%;
+	height: 500px;
+	float: right;	
+}
+
+.artigo img{
+	width: 150px;
+	float: left;
+	margin: px;
+	border: 1px solid black	;
+	padding: 1px;
+	margin: 5px;
+}
+
+.lateral img{
+	width: 50px;
+	float: right;
+	padding: 5px;
+}
+
+footer{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
