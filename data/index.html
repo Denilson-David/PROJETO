@@ -4,18 +4,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
+		<title>Atributo Data</title>
 		<link rel="stylesheet" type="text/css" href="pessoa.css">
 		<script type="text/javascript">
 			function mostradados(componente) {
 				var valor = componente.getAtribute('data-idade');
 				alert(valor);
-		 
-				var nome = componente.getAtribute('data-nome');
-				alert(nome);
-
-				var cpf = componente.getAtribute('data-cpf');
-				alert(cpf);
 				
 			}
 			
@@ -24,9 +18,9 @@
 	<body>
 
 		<ul>
-			<li class="pessoa" onclick="mostradados(this)" data-nome="Nome:joao " data-idade="Idade:20" data-cpf="cpf:012345678901"></li>
-			<li class="pessoa" onclick="mostradados(this)" data-nome="Nome:jose " data-idade="Idade:30" data-cpf="cpf:012345678902"></li>
-			<li class="pessoa" onclick="mostradados(this)" data-nome="Nome:maria " data-idade="Idade:40" data-cpf="cpf:012345678901"></li>
+			<li class="pessoa" onclick="mostradados(this)" data-nome="joao" data-idade="20" data-cpf="012345678901"></li>
+			<li class="pessoa" onclick="mostradados(this)" data-nome="jose" data-idade="30" data-cpf="012345678902"></li>
+			<li class="pessoa" onclick="mostradados(this)" data-nome="maria" data-idade="40" data-cpf="012345678901"></li>
 		</ul>
 	
 	</body>
