@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<script src="js/form_submit.js"></script>
+</head>
+<body>
+
+	<div id="conteudo">
+			
+			<header id="cabeça">
+				<div class="logo"><p class="f1">WORLD</p> <p class="f2">CUP</p></div>
+
+				<nav>
+					<a href="form.html">Cadastre-se|</a>
+					<a href="">Notícias|</a>
+					<a href="">Resultados|</a>
+					<a href="">Jogos|</a>
+					<a href="index.html">Home|</a>	
+				</nav>
+				<img src="imagens/banner.png"><hr>
+			</header>
+
+			<div class="post">
+
+				<h2>Preencha o formulário de cadastro.</h2><hr>
+				<fieldset>
+					<legend><b>Cadastro</b></legend>
+				<form id="form">
+					<label>Nome</label>
+					<input type="text" id="nome" name="nome">
+					<label>E-mail</label>
+					<input type="email" id="email" name="email">
+					<label>Idade</label>
+					<input type="number" id="idade" name="idade"><br><br>
+					<label>Telefone</label>
+					<input type="text" id="telefone" name="telefone">
+					<label>Cidade</label>
+					<input type="text" id="cidade" name="cidade">
+					<label>UF</label>
+					<input type="text" id="uf" name="uf"><br><br>
+					<label>Senha</label>
+					<input type="password" name="senha">
+					<label>Confirme a senha</label>
+					<input type="password" id="confirmasenha" name="confirmasenha"><br><br>
+					<label>Qual(is) sua(s) seleção(ões) favorita(s)?</label><br>
+					<input type="checkbox" id="argentina" name="argentina">
+					<label>Argentina</label>
+					<input type="checkbox" id="brasil" name="brasil">
+					<label>Brasil</label>
+					<input type="checkbox" id="franca" name="franca">
+					<label>França</label>
+					<input type="checkbox" id="portugal" name="portugal">
+					<label>Portugal</label><br>
+					<input type="checkbox" id="holanda" name="holanda">
+					<label>Holanda</label>
+					<input type="checkbox" id="Japão" name="Japão">
+					<label>Japão</label>
+					<input type="checkbox" id="uruguai" name="uruguai">
+					<label>Uruguai</label>
+					<input type="checkbox" id="outros" name="outros">
+					<label>Outros</label><br>
+					<label>Qual(is)?</label>
+					<input type="texto" name="outra"><br><br>
+					<button type="submit">Submit</button>					
+				</form>
+				</fieldset>
+				<p id="log"></p>
+		
+			</div>
+
+			<aside class="lateral">
+				<h2>Resultados dos Jogos</h2><hr>
+				<span><b>Abertura Grupo A Data:<time datetime="2022-11-20">20/11/2022</time></b></span>
+				<ul>
+					<li>Catar 0x2 Equador</li>
+				</ul><hr>
+				<span><b>Grupo A Data:<time datetime="2022-11-21">21/11/2022</time></b></span>
+				<ul>
+					<li>Senegal 0x2 Holanda</li>
+
+				</ul><hr>
+				<span><b>Grupo B Data:<time datetime="2022-11-21">21/11/2022</time></b></span>
+				<ul>
+					<li>Inglaterra 6x2 Irã</li>
+					<li>Estados Unidos 1x1 Gales</li>
+				</ul><hr>
+				<span><b>Grupo C/D Data:<time datetime="2022-11-22">22/11/2022</time></b></span>
+				<ul>
+					<li>Argentina 1x2 Arábia Saudita</li>
+					<li>Mexico 0x0 Polônia</li>
+					<li>Dinamarca 0x0 Tunisia</li>
+					<li>França 4x1 Austrália</li>
+
+				</ul><hr>
+				<span><b>Grupo E/F Data:<time datetime="2022-11-23">23/11/2022</time></b></span>
+				<ul>
+					<li>Alemanha 1x2 Japão</li>
+					<li>Espanha 7x0 Costa Rica</li>
+					<li>Marrocos 0x0 Croácia</li>
+					<li>Bélgica 1x0 Canadá</li>
+
+				</ul><hr>
+				<span><b>Grupo G/H Data:<time datetime="2022-11-24">24/11/2022</time></b></span>
+				<ul>
+					<li>Suiça 1x0 Camarões</li>
+					<li>Brasil 2x0 Sérvia</li>
+					<li>Uruguai 0x0 Coreia do Sul</li>
+					<li>Portugal 3x2 Gana</li>
+				</ul><hr>
+			</aside>			
+		</div>
+
+		<footer id="rodape"><p>&copy;Todos os Direitos Reservados</p></footer>
+
+</body>
+</html>

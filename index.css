@@ -2,46 +2,52 @@
 	font-family: arial, sans-serif;
 	color: white;
 	background-color: #16453f;
-	border: 3px solid white;
+	border: 3px solid green;
 	border-radius: 10px;
 	padding-right: 13px;
 	padding-left: 10px;
 	margin: 2px;
-	margin-right: 800px;
-	margin-left: 5px;
-	min-width: 320px;
-	max-width: 900px;
+	width: 500px;
+	
+}
+
+.lista a :hover{
+	background-color: black;
+	color: green;
+	border: 3px solid green;
+	border-radius: 5px;
+	padding: 2px;
+
 }
 
 .botao{
-	border: 3px solid #94654c;
+	
 	border-radius: 5px;
 	background-color: #fcf59b;
 	color: #94654c;
 	float: right;
 	margin margin-bottom: 2px;
+	text-decoration: none;
+	font-size: 20px;
 }
 
 body{
-	background-color: #59a87d;
+	background: linear-gradient(to top, green, white);
 }
 
 .titulo{
-	background-color: #16453f;
-	color: #ffb145;
-	border: 3px solid #ffb145 ;
+	background: linear-gradient(to top, green, white);
+	text-shadow: 1px 1px white;
+	color: black;
+	border: 3px solid green ;
 	border-radius: 5px;
-	padding-right: 13px;
-	padding-left: 10px;
-	margin-right: 700px;
-	margin-left: 5px;
-	min-width: 320px;
-	max-width: 900px;
+	margin: 3px;
+	padding: 5px;
 }
 
 .titulo img{
-	padding-top: 120px;
-	width: 90px;
+	padding-top: 50px;
+	width: 150px;
 	float: right;
 }
 

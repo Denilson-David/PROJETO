@@ -1,0 +1,101 @@
+#conteudo{
+	background: linear-gradient(to top, #b9113f, #ecd078);
+	width: 1280px;
+	height: 1260px;
+	padding: 5px;
+	margin: -7px;
+	margin-bottom: -16px;
+}
+
+.logo{
+	float: left;
+	width: 200px;
+	height: 40px;	
+}
+
+.f1{
+	text-shadow: 1px 1px #fcebb6;
+	color: #5c323e;
+	position: relative;
+	float: left;
+	font-size: 40px;
+	font-family: fantasy;
+	top: -45px;
+}
+
+.f2{
+	text-shadow: 1px 1px #330708;
+	color: #f1ebeb;
+	position: relative;
+	float: left;
+	font-size: 40px;
+	font-family: monospace;
+	font-style: italic;
+	top: -45px;
+}
+
+nav a{
+	float: right;
+	background: rgba(153, 0, 0, 0.3);
+	font-size: 20px;
+	text-decoration: none;
+	color: black;	
+}
+
+nav a:hover{
+	background: #ffffd1;
+	color: red;
+}
+
+img{
+	width: 1280px;
+	height: 300px;
+}
+
+.post{
+	float: left;
+	padding: 5px;
+	background: linear-gradient(to left, #e6ac27, #fff1ce );
+	box-shadow: 0px 5px 5px 5px #3a111c;
+	border-radius: 15px;
+	width: 800px;
+	height: 850px;
+	text-align: justify;
+	color: black;
+}
+
+.lateral{
+	background: linear-gradient(to left, #e6ac27, #fff1ce );
+	box-shadow: -2px 5px 5px 5px #3a111c;
+	border-radius: 15px;
+	float: right;
+	width:450px;
+	height: 855px;
+	padding: 2px;
+}
+
+.lateral h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: fantasy;
+	text-shadow: 1px 1px #fcebb6;
+}
+
+#rodape{
+	font-size: 17px;
+	background: linear-gradient(to top, #b9113f, #ecd078);
+	position: relative;
+	right: 7px;
+	width: 1290px;
+	padding-bottom: 5px;
+	text-align: center;
+	margin-bottom: -5px;	
+}
+
+#rodape p{
+	padding-top: 15px ;
+}
+
+.post fieldset{
+	background: linear-gradient(to bottom, #ffc52c, white);
+}
